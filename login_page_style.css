@@ -1,0 +1,92 @@
+body{
+    height:100vh;
+    display:flex;
+    margin:0px;
+    padding:0px;
+
+}
+
+.section1{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:sans-serif;
+}
+
+.section2{
+    width:50%;
+}
+
+.section2 img{
+    height:100%;
+    width:100%;
+}
+
+.caption_input{
+    margin:10px 0px 50px;
+    width:100%;
+    font-size:15px;
+}
+
+.caption_input>.input_field{
+    width:500px;
+    border:none;
+    border-bottom:1px solid black;
+    background:transparent;
+    outline:none;
+    
+}
+
+.caption_input .caption{
+    position: relative;
+    top:-20px;    
+}
+
+.remember_forgot{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:30px;
+    
+}
+
+.remember_forgot>a{
+    text-decoration: none;
+}
+
+.remember_forgot>.remember{
+    padding:-100px;
+}
+
+.login>button{
+    width:500px;
+    height:40px;
+    font-size:20px;
+    border-radius:20px;
+    width: 500px;
+    background: linear-gradient(90deg, rgb(1, 101, 1), #1b9a1b, #808000, #FFFFE0, white);
+    background-size: 500% 500%;
+    animation: colorCycle 10s linear infinite;
+      
+}
+@keyframes colorCycle {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.animated-box {
+}
+
+.google_facebook{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+}
+
